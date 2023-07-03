@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BoMuoi_Do_Idle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08333333333333333,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "10ba09b2-e87c-49f3-8455-f0a979706fa1"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "9b583599-c7f9-4452-9ec6-854d90fc27c1"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "53f0b70b-2928-41a4-a977-66297e7943fe"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "ed915ab3-4fed-49d5-8ec3-8785a6a48a06"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "bff864fb-7ae6-4465-a673-1b998f7c44c8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

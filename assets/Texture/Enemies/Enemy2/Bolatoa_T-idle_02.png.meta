@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "613ccccc-21ed-4a35-b710-6afe096aa2fc",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 148,
+  "height": 113,
+  "platformSettings": {},
+  "subMetas": {
+    "Bolatoa_T-idle_02": {
+      "ver": "1.0.6",
+      "uuid": "1bd58888-dfef-419e-9369-05313a7111d2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "613ccccc-21ed-4a35-b710-6afe096aa2fc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 1,
+      "trimY": 2,
+      "width": 145,
+      "height": 108,
+      "rawWidth": 148,
+      "rawHeight": 113,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

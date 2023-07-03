@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BoOng_Vang_Idle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08333333333333333,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6b5dfc8b-279f-4246-b423-1e0d6339da56"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "3846e5a0-de24-4080-ba81-40a00783c801"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "7cc2f6ac-d320-4971-866a-e2b84b6de36a"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "a9385bda-4598-4fcb-a13a-47e9df1ac96c"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "99db5ab7-4000-4134-b055-2b7cc0d962bd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

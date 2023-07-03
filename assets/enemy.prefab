@@ -1,0 +1,217 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "enemy",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -480,
+        -320,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 2,
+    "groupIndex": 2,
+    "_id": ""
+  },
+  {
+    "__type__": "9be3acVGI1HxY/hc+ZHz7JC",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "enemyAnimationClip": [
+      {
+        "__uuid__": "39f4cb5a-ec5f-4cd9-8986-688a2559a75e"
+      },
+      {
+        "__uuid__": "6d927c9e-7ed4-4dd0-9e22-271f5bfc74ff"
+      },
+      {
+        "__uuid__": "f8804d2c-caff-4969-a3c4-2f566d3a9632"
+      },
+      {
+        "__uuid__": "23d63b12-7664-4723-beed-ea37a50b33d1"
+      },
+      {
+        "__uuid__": "e73d8173-e321-4a0e-83b3-955bdf98a27b"
+      },
+      {
+        "__uuid__": "f10e8fa2-f503-45a2-8f5f-4ea240233242"
+      },
+      {
+        "__uuid__": "c586252d-894e-468f-b9e5-5f266829140f"
+      },
+      {
+        "__uuid__": "15fc86bb-6a60-4518-a752-65543be03222"
+      },
+      {
+        "__uuid__": "c0847b7f-9fd3-469a-9862-db3a791f67b1"
+      },
+      {
+        "__uuid__": "d108916f-47d7-4b83-a8b9-c7426107453c"
+      }
+    ],
+    "explosionAnimationClip": [
+      {
+        "__uuid__": "5d641075-7afa-4c8c-b645-686aec622bb5"
+      },
+      {
+        "__uuid__": "67a15bba-498b-47f9-ba0d-258552159700"
+      }
+    ],
+    "explosionPrefab": {
+      "__uuid__": "0659700a-3a6d-4800-88be-624c089eb90e"
+    },
+    "enemyHitCount": 0,
+    "itemPrefab": {
+      "__uuid__": "0e9ac248-9b93-4494-84b8-a36b9a99d0bd"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": null,
+    "_clips": [],
+    "playOnLoad": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.BoxCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 2,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 25,
+      "height": 25
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

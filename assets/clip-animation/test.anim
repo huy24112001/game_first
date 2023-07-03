@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "test",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.05,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": []
+      }
+    },
+    "paths": {},
+    "props": {
+      "eulerAngles": [
+        {
+          "frame": 0.016666666666666666,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 15
+          }
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0.05,
+      "func": "",
+      "params": []
+    }
+  ]
+}

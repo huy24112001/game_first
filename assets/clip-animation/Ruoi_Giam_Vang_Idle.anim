@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Ruoi_Giam_Vang_Idle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08333333333333333,
+  "sample": 60,
+  "speed": 0.15,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "a073edb6-5328-4ce7-886d-7d02ec21da3e"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "479c1b3a-db79-43b6-81e4-ae77061b8c69"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "66b7679f-109b-44a2-9359-5d7a246d5b1f"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "d179a82e-9607-423c-af53-f4e7c23fa45a"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "8c4315e5-caa2-4fac-8fac-e39eddf4e7c3"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

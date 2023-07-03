@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BoOng_Xanhla_Idle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.08333333333333333,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "da73af7c-8d4d-4c4d-ae55-576691d713a2"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "fb4ac2c4-d2c3-4ad5-9f74-278d06299fca"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "216154f1-f1a5-49ae-865f-fc34032f709f"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "d18cb8e1-d5ef-4c38-bbd0-25f72cc31f52"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7dee1bbb-33f5-4162-a5e6-3a1a4b6f1fb4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

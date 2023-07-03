@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "baeefd34-1dde-41fd-97d9-b4275af385ad",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 40,
+  "height": 42,
+  "platformSettings": {},
+  "subMetas": {
+    "BoOng_Xanhla_Idle_1": {
+      "ver": "1.0.6",
+      "uuid": "fb4ac2c4-d2c3-4ad5-9f74-278d06299fca",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "baeefd34-1dde-41fd-97d9-b4275af385ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 40,
+      "height": 38,
+      "rawWidth": 40,
+      "rawHeight": 42,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
