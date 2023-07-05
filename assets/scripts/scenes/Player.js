@@ -38,7 +38,7 @@ cc.Class({
     start(){
      
     },
-
+ 
     createBulletPool() {
         // Tạo một số lượng đối tượng đạn ban đầu trong node pool
         const bulletCount = 10;

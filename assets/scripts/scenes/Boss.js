@@ -2,10 +2,21 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        index: 1
+        index: 1,
+        check : false
     },
 
     onLoad() {
+
+    },
+
+    moveLever3(){
+    
+
+        if(!this.check ){
+            this.check = true;
+        const screenHeight = cc.winSize.height;
+        this.node.setPosition(480 , screenHeight -  100);
         this.originalPosition = this.node.position; // Lưu vị trí ban đầu của boss
 
         const spine = this.node.getComponent(sp.Skeleton);
@@ -19,12 +30,11 @@ cc.Class({
                 this.moveUp();
             }
         });
+    }},
 
-    
-    },
 
     moveDown() {
-        const moveDownAction = cc.moveBy(1, cc.v2(0, -40)); // Di chuyển xuống một đoạn
+        const moveDownAction = cc.moveBy(0.1, cc.v2(0, -40)); // Di chuyển xuống một đoạn
 
         const combinedAction = cc.sequence(
             moveDownAction,
@@ -44,7 +54,7 @@ cc.Class({
     },
 
     moveUp() {
-        const moveUpAction = cc.moveTo(1, this.originalPosition); // Di chuyển trở lại vị trí ban đầu
+        const moveUpAction = cc.moveTo(0.1, this.originalPosition); // Di chuyển trở lại vị trí ban đầu
 
         const combinedAction = cc.sequence(
             moveUpAction,

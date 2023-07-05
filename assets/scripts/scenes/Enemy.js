@@ -35,10 +35,8 @@ cc.Class({
             this.itemPool.put(item); // Đưa đối tượng đạn vào node pool
         }
 
-      
-   
-     
      },
+     
 
      
      
@@ -56,24 +54,35 @@ cc.Class({
                 const lever1Node = cc.find("lever1");
                 const enemyPool = lever1Node.getComponent('Lever1').enemyPool;
                 enemyPool.put(self.node);
-                // console.log(enemyPool.size());
                 // self.node.destroy();
                 this.enemyHitCount = 0 ;
-             
+     
                 this.createItem();
                 var canvasNode = cc.find("Canvas");
-                let lv =  canvasNode.getComponent("MainScene").lever ;
+                var lv =  canvasNode.getComponent("MainScene").lever ;
               
+                // console.log(enemyPool.size())
+
                 if(enemyPool.size() === 39 && lv === 1 ){
                     canvasNode.getComponent("MainScene").lever = 2;
                     const lever2Node = cc.find("lever2");
                     lever2Node.getComponent('Lever2').moveLever2();
+                } else if( lv === 2  ){
+                    console.log(cc.find("lever2").getComponent("Lever2").count++)
+                    //  cc.find("lever2").getComponent("Lever2").count += 1 ;
                 }
-               
+                if( cc.find("lever2").getComponent("Lever2").count >= 321)
+                    setTimeout(() => {
+                        cc.find("lever3").getComponent("Boss").moveLever3();
+                }, 1000);
 
-        }
+                       
+               
+            }
+        
     }
     },
+  
 
  
     createItem() {
@@ -110,6 +119,7 @@ cc.Class({
            
             item.runAction(moveAction);
         }
+    
     },
         
        

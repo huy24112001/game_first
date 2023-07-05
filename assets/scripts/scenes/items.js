@@ -23,8 +23,8 @@ cc.Class({
      
     onCollisionEnter(other, self) {
  
-         console.log(other.node.name);
-
+        //  console.log(other.node.getComponent("Player").moveSpeed);
+         other.node.getComponent("Player").moveSpeed = 1000 ; 
         // Lấy vị trí hiện tại của other
         let otherPosition = other.node.position;
         otherPosition = new cc.v2(otherPosition.x , otherPosition.y + 60) ; 
@@ -43,7 +43,7 @@ cc.Class({
 
         const moveAction = cc.sequence(cc.moveTo(duration, otherPosition), 
         cc.callFunc(() => {
-           self.node.destroy(); // Trả đối tượng đạn về node pool sau khi hoàn thành hành động
+           self.node.destroy(); // Trả đối tượng item về node pool sau khi hoàn thành hành động
         })
         );
 

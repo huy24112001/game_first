@@ -13,6 +13,7 @@ cc.Class({
             default : null,
             type : cc.Prefab
         },
+        count : 0
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -25,8 +26,11 @@ cc.Class({
     moveLever2(){
         const lever1Node = cc.find("lever1");
         const enemyPool = lever1Node.getComponent('Lever1').enemyPool;
+        // const lv = cc.find("Canvas").getComponent("MainScene").lever;
+        // console.log(cc.find("Canvas").getComponent("MainScene").lever);
+        // if(lv ===  1)  cc.find("Canvas").getComponent("MainScene").lever = 2;
         const screenHeight = cc.winSize.height;
-
+        this.isFunctionCalled = false ; 
 
         var canvasNode = cc.find("Canvas");
    
@@ -53,17 +57,17 @@ cc.Class({
                         if( k > 4 ){
                             y = screenHeight/2  + 20*((i-1)*5 + j-1) + 35;
                             x =  (k-2.5)*40 - 145;
+                           
                         }
                     } 
-                    
-                    
-        
+                
+              
         
                     // Lấy một Animation clip theo index từ danh sách enemyAnimationClip
                 
                     const AnimationClip = enemy.getComponent("Enemy").enemyAnimationClip[index-1];
         
-                    //  console.log(enemy.getComponent("Enemy").enemyAnimationClip[0])
+                 
         
                     // Thiết lập  Clip cho Animation Clip  trên prefab enemy
             
@@ -81,13 +85,27 @@ cc.Class({
                     // Thêm prefab enemy vào scene
                     canvasNode.addChild(enemy);
 
-                    const speed = 15; // Vận tốc
+                    const speed = 23; // Vận tốc
                     const duration = (y+10) / speed;
             
                     const moveAction = cc.sequence(cc.moveTo(duration, cc.v2( x, -y - 10)), 
                     cc.callFunc(() => {
-                          enemyPool.put(enemy) // Trả đối tượng enemy về node pool sau khi hoàn thành hành động
-                        // enemy.destroy();
+
+                           enemyPool.put(enemy) // Trả đối tượng enemy về node pool sau khi hoàn thành hành động
+                        // / enemy.destroy();
+                        // console.log(enemyPool.size())
+                        
+                         this.count ++ ;
+                         console.log(this.count);
+                        //  if(i === 10 && k >= 6)  {
+                        //     console.log(enemyPool.size())
+                           
+                        // }
+                        if(this.count >= 321) 
+                            setTimeout(() => {
+                                    cc.find("lever3").getComponent("Boss").moveLever3();
+                            }, 2000);
+                        
                     })
                     );
             
@@ -104,6 +122,7 @@ cc.Class({
            
          
         }
+          
       
     
     },

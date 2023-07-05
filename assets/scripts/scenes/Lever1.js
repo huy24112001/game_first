@@ -32,6 +32,8 @@ cc.Class({
         
    
      },
+  
+
 
     setEnemyPool(enemyPool) {
         this.enemyPool = enemyPool;
